@@ -6,4 +6,3 @@ for seq_record in SeqIO.parse("sequence.fasta", "fasta"):
 
 sequence_dict = SeqIO.index("sequence.fasta", "fasta")
 print(sequence_dict)
-print(list(sequence_dict.values()))
